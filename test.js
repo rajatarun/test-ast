@@ -1,8 +1,8 @@
 function conditional(condition,left,right){
     return condition?left:right;
 }
-conditional(true,1,2);
-conditional(flase,1,2);
-conditional(1>2,1,2);
-1>2?3:2;
-true?2:1;
+var d = conditional(true,1,2);
+var e = conditional(flase,1,2);
+var f = conditional(1>2,1,2);
+var a = 1>2?3:2;
+var b = true?2:1;
