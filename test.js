@@ -2,7 +2,7 @@ function conditional(condition,left,right){
     return condition?left:right;
 }
 function test(){
-    var a = 1>2?3:2;
+    var a = conditional(1>2,3,2);
     var b = true?2:1;
     return a;
 }
